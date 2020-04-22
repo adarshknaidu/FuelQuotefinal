@@ -1,0 +1,81 @@
+﻿@model FuelQuoteApp.Models.Client.ClientProfileViewModel
+
+
+@{
+    ViewData["Title"] = "ClientProfile";
+}
+
+<link type="text/css" rel="stylesheet" href="styles/bootstrap.min.css">
+<script src="script/bootstrap.min.js"></script>
+<script src="script/jquery-1.10.2.min.js"></script>
+
+
+<div class="container">
+    <div class="row centered-form" style="margin-top: 150px;">
+        <div class="col-md-6">
+            <div>
+                <h1 style="color: #1ba608">Client Profile</h1>
+            </div>
+            <blockquote style="color: #2735d9;">
+                <p>
+                    Complete your Profile!
+                </p>
+            </blockquote>
+        </div>
+        @if (TempData["ClientProfileInfo"] != null)
+        {
+            <div class="col-md-7">
+                <div class="alert alert-warning">
+                    @TempData["ClientProfileInfo"]
+                </div>
+            </div>
+        }
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        We would love to know you more.
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <form role="form" asp-action="ClientProfile" asp-controller="Client" method="post">
+                        <div class="form-group">
+                            <input asp-for="FullName" class="form-control input-sm" placeholder="FullName">
+                            <span asp-validation-for="FullName" class="text-danger"></span>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <div class="form-group">
+                                    <input asp-for="Address1" class="form-control input-sm" placeholder="Address1">
+                                    <span asp-validation-for="Address1" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <div class="form-group">
+
+                                    <input asp-for="Address2" class="form-control input-sm" placeholder="Address2">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input asp-for="City" class="form-control input-sm" placeholder="City">
+                            <span asp-validation-for="City" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <select asp-for="State" class="custom-select mr-sm-2" asp-items="Html.GetEnumSelectList<FuelQuoteApp.Models.Client.States>()">
+                                <option value="">Select State</option>
+                            </select>
+                            <span asp-validation-for="State" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input asp-for="ZipCode" class="form-control input-sm" placeholder="ZipCode">
+                            <span asp-validation-for="ZipCode" class="text-danger"></span>
+                        </div>
+                        <input type="submit" value="Update" class="btn btn-info btn-block">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

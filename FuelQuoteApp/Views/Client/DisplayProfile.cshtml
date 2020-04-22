@@ -1,0 +1,73 @@
+﻿@model FuelQuoteApp.Models.Client.ClientProfileViewModel
+
+
+@{
+    ViewData["Title"] = "ClientProfile";
+}
+@{
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+<link type="text/css" rel="stylesheet" href="styles/bootstrap.min.css">
+<script src="script/bootstrap.min.js"></script>
+<script src="script/jquery-1.10.2.min.js"></script>
+
+
+<div class="container">
+    <div class="row centered-form" style="margin-top: 150px;">
+
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        @User.Identity.Name.ToString()
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <form role="form" asp-action="ClientProfile" asp-controller="Client" method="post">
+                        <div class="form-group">
+                            <label asp-for="FullName">Full Name</label>
+                            <input asp-for="FullName" class="form-control input-sm" placeholder="FullName" disabled>
+                            <span asp-validation-for="FullName" class="text-danger"></span>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="Address1">Address1</label>
+                                    <input asp-for="Address1" class="form-control input-sm" placeholder="Address1" disabled>
+                                    <span asp-validation-for="Address1" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="Address2">Address2</label>
+                                    <input asp-for="Address2" class="form-control input-sm" placeholder="Address2" disabled>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="City">City</label>
+                            <input asp-for="City" class="form-control input-sm" placeholder="City" disabled>
+                            <span asp-validation-for="City" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="State">State</label>
+                            <select asp-for="State" class="custom-select mr-sm-2" asp-items="Html.GetEnumSelectList<FuelQuoteApp.Models.Client.States>()" disabled>
+                                <option value="">Select State</option>
+                            </select>
+                            <span asp-validation-for="State" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="ZipCode">Zip Code</label>
+                            <input asp-for="ZipCode" class="form-control input-sm" placeholder="ZipCode" disabled>
+                            <span asp-validation-for="ZipCode" class="text-danger"></span>
+                        </div>
+
+                    </form>
+
+                    <input type="button" class="btn btn-primary" value="Go Back" onclick="location.href='@Url.Action("ClientDashBoard", "Client")'" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

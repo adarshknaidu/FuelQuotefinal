@@ -1,0 +1,12 @@
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.EntityModels\bin\Debug\netcoreapp2.2\FuelQuoteApp.EntityModels.deps.json
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.EntityModels\bin\Debug\netcoreapp2.2\FuelQuoteApp.EntityModels.dll
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.EntityModels\bin\Debug\netcoreapp2.2\FuelQuoteApp.EntityModels.pdb
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.EntityModels\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.EntityModels\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Identity.Stores.xml
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.EntityModels\obj\Debug\netcoreapp2.2\FuelQuoteApp.EntityModels.csproj.CoreCompileInputs.cache
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.EntityModels\obj\Debug\netcoreapp2.2\FuelQuoteApp.EntityModels.AssemblyInfoInputs.cache
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.EntityModels\obj\Debug\netcoreapp2.2\FuelQuoteApp.EntityModels.AssemblyInfo.cs
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.EntityModels\obj\Debug\netcoreapp2.2\FuelQuoteApp.EntityModels.csproj.CopyComplete
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.EntityModels\obj\Debug\netcoreapp2.2\FuelQuoteApp.EntityModels.dll
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.EntityModels\obj\Debug\netcoreapp2.2\FuelQuoteApp.EntityModels.pdb
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.EntityModels\obj\Debug\netcoreapp2.2\FuelQuoteApp.EntityModels.csprojAssemblyReference.cache

@@ -1,0 +1,12 @@
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.DataLayer\obj\Debug\netcoreapp2.2\FuelQuoteApp.DataLayer.csprojAssemblyReference.cache
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.DataLayer\obj\Debug\netcoreapp2.2\FuelQuoteApp.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.DataLayer\obj\Debug\netcoreapp2.2\FuelQuoteApp.DataLayer.AssemblyInfoInputs.cache
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.DataLayer\obj\Debug\netcoreapp2.2\FuelQuoteApp.DataLayer.AssemblyInfo.cs
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.DataLayer\bin\Debug\netcoreapp2.2\FuelQuoteApp.DataLayer.deps.json
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.DataLayer\bin\Debug\netcoreapp2.2\FuelQuoteApp.DataLayer.dll
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.DataLayer\bin\Debug\netcoreapp2.2\FuelQuoteApp.DataLayer.pdb
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.DataLayer\bin\Debug\netcoreapp2.2\FuelQuoteApp.EntityModels.dll
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.DataLayer\bin\Debug\netcoreapp2.2\FuelQuoteApp.EntityModels.pdb
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.DataLayer\obj\Debug\netcoreapp2.2\FuelQuoteApp.DataLayer.csproj.CopyComplete
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.DataLayer\obj\Debug\netcoreapp2.2\FuelQuoteApp.DataLayer.dll
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.DataLayer\obj\Debug\netcoreapp2.2\FuelQuoteApp.DataLayer.pdb

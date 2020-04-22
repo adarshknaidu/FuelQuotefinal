@@ -1,0 +1,8 @@
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuote.BusinessLayer\bin\Debug\netcoreapp2.2\FuelQuoteApp.BusinessLayer.deps.json
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuote.BusinessLayer\bin\Debug\netcoreapp2.2\FuelQuoteApp.BusinessLayer.dll
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuote.BusinessLayer\bin\Debug\netcoreapp2.2\FuelQuoteApp.BusinessLayer.pdb
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuote.BusinessLayer\obj\Debug\netcoreapp2.2\FuelQuoteApp.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuote.BusinessLayer\obj\Debug\netcoreapp2.2\FuelQuoteApp.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuote.BusinessLayer\obj\Debug\netcoreapp2.2\FuelQuoteApp.BusinessLayer.AssemblyInfo.cs
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuote.BusinessLayer\obj\Debug\netcoreapp2.2\FuelQuoteApp.BusinessLayer.dll
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuote.BusinessLayer\obj\Debug\netcoreapp2.2\FuelQuoteApp.BusinessLayer.pdb

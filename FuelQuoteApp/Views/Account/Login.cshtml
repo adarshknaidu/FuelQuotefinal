@@ -1,0 +1,62 @@
+﻿@model FuelQuoteApp.Models.Account.LoginViewModel
+@{
+    ViewData["Title"] = "Login";
+}
+<link type="text/css" rel="stylesheet" href="styles/bootstrap.min.css">
+<script src="script/bootstrap.min.js"></script>
+<script src="script/jquery-1.10.2.min.js">
+    $("#loginID").hide();
+</script>
+
+<div class="container">
+    <div class="row centered-form" style="margin-top: 150px;">
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="~/Images/login.png" alt="Login" />
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        Log-in
+                    </h3>
+                </div>
+                @if (TempData["RegistrationSuccessful"] != null)
+                {
+                    <div class="col-sm-8">
+                        <div class="alert alert-success carousel-fade">
+                            @TempData["RegistrationSuccessful"]
+                        </div>
+                    </div>
+                }
+                <div class="panel-body">
+                    <form role="form" asp-action="Login" asp-controller="Account" method="post">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <div class="form-group">
+                            <input asp-for="Email" class="form-control input-sm" placeholder="Email Address">
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input asp-for="Password" class="form-control input-sm" placeholder="Password">
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <div class="custom-checkbox">
+                                <label asp-for="RememberMe">
+                                    <input asp-for="RememberMe" />
+                                    @Html.DisplayNameFor(m => m.RememberMe)
+                                </label>
+                            </div>
+                        </div>
+                        <input type="submit" value="Login" class="btn btn-info btn-block">
+                    </form>
+                </div>
+            </div>
+            <span>Not a Member?</span> <a asp-area="" asp-controller="Account" asp-action="Register">Sign Up Now</a>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Adarsh Kalyampudi\\source\\repos\\FuelQuoteApp.DataLayer\\FuelQuoteApp.DataLayer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Adarsh Kalyampudi\\source\\repos\\FuelQuoteApp.DataLayer\\FuelQuoteApp.DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Adarsh Kalyampudi\\source\\repos\\FuelQuoteApp.DataLayer\\FuelQuoteApp.DataLayer.csproj",
+        "projectName": "FuelQuoteApp.DataLayer",
+        "projectPath": "C:\\Users\\Adarsh Kalyampudi\\source\\repos\\FuelQuoteApp.DataLayer\\FuelQuoteApp.DataLayer.csproj",
+        "packagesPath": "C:\\Users\\Adarsh Kalyampudi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adarsh Kalyampudi\\source\\repos\\FuelQuoteApp.DataLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Adarsh Kalyampudi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Adarsh Kalyampudi\\source\\repos\\FuelQuoteApp.EntityModels\\FuelQuoteApp.EntityModels.csproj": {
+                "projectPath": "C:\\Users\\Adarsh Kalyampudi\\source\\repos\\FuelQuoteApp.EntityModels\\FuelQuoteApp.EntityModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Adarsh Kalyampudi\\source\\repos\\FuelQuoteApp.EntityModels\\FuelQuoteApp.EntityModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Adarsh Kalyampudi\\source\\repos\\FuelQuoteApp.EntityModels\\FuelQuoteApp.EntityModels.csproj",
+        "projectName": "FuelQuoteApp.EntityModels",
+        "projectPath": "C:\\Users\\Adarsh Kalyampudi\\source\\repos\\FuelQuoteApp.EntityModels\\FuelQuoteApp.EntityModels.csproj",
+        "packagesPath": "C:\\Users\\Adarsh Kalyampudi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adarsh Kalyampudi\\source\\repos\\FuelQuoteApp.EntityModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Adarsh Kalyampudi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

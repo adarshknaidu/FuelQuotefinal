@@ -1,0 +1,51 @@
+﻿
+@model FuelQuoteApp.EntityModels.Quote;
+
+@{
+    ViewData["Title"] = "SavedQuote";
+    DateTime date = Model.DateRequested.Date;
+
+}
+@{
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+<div class="col-md-6">
+    <div class="alert alert-success carousel-fade">
+        Quote has been created sccessfully.<br />
+        Find the details of your quote below
+    </div>
+</div>
+
+<div class="col-md-6">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h5><u>Date  -  @date.ToShortDateString()</u></h5>
+        </div>
+
+        <div class="panel-body border-danger">
+
+            <form role="form" asp-action="GetQuote" asp-controller="Quote" method="post">
+                <div class="form-group">
+                    <label asp-for="GallonsRequested">Gallons Requested</label>
+                    <input asp-for="GallonsRequested" class="form-control input-sm" placeholder="Enter number of Gallons" disabled>
+                    <span asp-validation-for="GallonsRequested" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="DeliveryAddress">Delivery Address</label>
+                    <input asp-for="DeliveryAddress" class="form-control input-sm" disabled>
+                </div>
+                <div class="form-group">
+                    <label asp-for="PricePerGallon">Our Best price per gallon</label>
+                    <input asp-for="PricePerGallon" class="form-control input-sm" disabled>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TotalAmount ">Total Amount</label>
+                    <input asp-for="TotalAmount" class="form-control input-sm" disabled>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+</div>
+

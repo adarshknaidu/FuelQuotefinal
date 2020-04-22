@@ -1,0 +1,56 @@
+﻿@model IEnumerable<FuelQuoteApp.EntityModels.Quote>
+
+@{
+    ViewData["Title"] = "QuoteHistory";
+}
+@{
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+<h1>QuoteHistory</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.GallonsRequested)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DeliveryAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateRequested)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PricePerGallon)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalAmount)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.GallonsRequested)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DeliveryAddress)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateRequested)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PricePerGallon)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TotalAmount)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<input type="button" class="btn btn-primary" value="Go Back" onclick="location.href='@Url.Action("ClientDashBoard", "Client")'" />

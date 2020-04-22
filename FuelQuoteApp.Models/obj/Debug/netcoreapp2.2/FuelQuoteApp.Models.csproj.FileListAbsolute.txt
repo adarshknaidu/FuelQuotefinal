@@ -1,0 +1,8 @@
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.Models\bin\Debug\netcoreapp2.2\FuelQuoteApp.Models.deps.json
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.Models\bin\Debug\netcoreapp2.2\FuelQuoteApp.Models.dll
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.Models\bin\Debug\netcoreapp2.2\FuelQuoteApp.Models.pdb
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.Models\obj\Debug\netcoreapp2.2\FuelQuoteApp.Models.csproj.CoreCompileInputs.cache
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.Models\obj\Debug\netcoreapp2.2\FuelQuoteApp.Models.AssemblyInfoInputs.cache
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.Models\obj\Debug\netcoreapp2.2\FuelQuoteApp.Models.AssemblyInfo.cs
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.Models\obj\Debug\netcoreapp2.2\FuelQuoteApp.Models.dll
+C:\Users\Adarsh Kalyampudi\source\repos\FuelQuoteApp.Models\obj\Debug\netcoreapp2.2\FuelQuoteApp.Models.pdb
